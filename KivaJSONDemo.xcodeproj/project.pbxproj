@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		304AB09F18096F590067B7CF /* KivaJSONDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 304AB09E18096F590067B7CF /* KivaJSONDemo-Info.plist */; };
+		35204FCE143A7ECE002858D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35204FCD143A7ECE002858D6 /* UIKit.framework */; };
+		35204FD0143A7ECE002858D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35204FCF143A7ECE002858D6 /* Foundation.framework */; };
+		35204FD2143A7ECF002858D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35204FD1143A7ECE002858D6 /* CoreGraphics.framework */; };
+		35204FD8143A7ECF002858D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35204FD6143A7ECF002858D6 /* InfoPlist.strings */; };
+		35204FDA143A7ECF002858D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35204FD9143A7ECF002858D6 /* main.m */; };
+		35204FDE143A7ECF002858D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35204FDD143A7ECF002858D6 /* AppDelegate.m */; };
+		35204FE1143A7ECF002858D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35204FE0143A7ECF002858D6 /* ViewController.m */; };
+		35204FE4143A7ECF002858D6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35204FE2143A7ECF002858D6 /* ViewController.xib */; };
+		E15ADA6C1442339D009760D0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E15ADA6B1442339D009760D0 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		304AB09E18096F590067B7CF /* KivaJSONDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KivaJSONDemo-Info.plist"; sourceTree = "<group>"; };
+		304AB0A018096F770067B7CF /* KivaJSONDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KivaJSONDemo-Prefix.pch"; sourceTree = "<group>"; };
+		35204FC9143A7ECE002858D6 /* KivaJSONDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KivaJSONDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35204FCD143A7ECE002858D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35204FCF143A7ECE002858D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35204FD1143A7ECE002858D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35204FD7143A7ECF002858D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35204FD9143A7ECF002858D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35204FDC143A7ECF002858D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35204FDD143A7ECF002858D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35204FDF143A7ECF002858D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35204FE0143A7ECF002858D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35204FE3143A7ECF002858D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E15ADA6B1442339D009760D0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35204FC6143A7ECE002858D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35204FCE143A7ECE002858D6 /* UIKit.framework in Frameworks */,
+				35204FD0143A7ECE002858D6 /* Foundation.framework in Frameworks */,
+				35204FD2143A7ECF002858D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35204FBE143A7ECE002858D6 = {
+			isa = PBXGroup;
+			children = (
+				35204FD3143A7ECF002858D6 /* KivaJSONDemo */,
+				35204FCC143A7ECE002858D6 /* Frameworks */,
+				35204FCA143A7ECE002858D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35204FCA143A7ECE002858D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35204FC9143A7ECE002858D6 /* KivaJSONDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35204FCC143A7ECE002858D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35204FCD143A7ECE002858D6 /* UIKit.framework */,
+				35204FCF143A7ECE002858D6 /* Foundation.framework */,
+				35204FD1143A7ECE002858D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35204FD3143A7ECF002858D6 /* KivaJSONDemo */ = {
+			isa = PBXGroup;
+			children = (
+				35204FDC143A7ECF002858D6 /* AppDelegate.h */,
+				35204FDD143A7ECF002858D6 /* AppDelegate.m */,
+				35204FDF143A7ECF002858D6 /* ViewController.h */,
+				35204FE0143A7ECF002858D6 /* ViewController.m */,
+				35204FE2143A7ECF002858D6 /* ViewController.xib */,
+				35204FD4143A7ECF002858D6 /* Supporting Files */,
+			);
+			path = KivaJSONDemo;
+			sourceTree = "<group>";
+		};
+		35204FD4143A7ECF002858D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				304AB0A018096F770067B7CF /* KivaJSONDemo-Prefix.pch */,
+				E15ADA6B1442339D009760D0 /* Icon.png */,
+				304AB09E18096F590067B7CF /* KivaJSONDemo-Info.plist */,
+				35204FD6143A7ECF002858D6 /* InfoPlist.strings */,
+				35204FD9143A7ECF002858D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35204FC8143A7ECE002858D6 /* KivaJSONDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35204FE7143A7ECF002858D6 /* Build configuration list for PBXNativeTarget "KivaJSONDemo" */;
+			buildPhases = (
+				35204FC5143A7ECE002858D6 /* Sources */,
+				35204FC6143A7ECE002858D6 /* Frameworks */,
+				35204FC7143A7ECE002858D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KivaJSONDemo;
+			productName = KivaJSONDemo;
+			productReference = 35204FC9143A7ECE002858D6 /* KivaJSONDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35204FC0143A7ECE002858D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 35204FC3143A7ECE002858D6 /* Build configuration list for PBXProject "KivaJSONDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35204FBE143A7ECE002858D6;
+			productRefGroup = 35204FCA143A7ECE002858D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35204FC8143A7ECE002858D6 /* KivaJSONDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35204FC7143A7ECE002858D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35204FD8143A7ECF002858D6 /* InfoPlist.strings in Resources */,
+				35204FE4143A7ECF002858D6 /* ViewController.xib in Resources */,
+				E15ADA6C1442339D009760D0 /* Icon.png in Resources */,
+				304AB09F18096F590067B7CF /* KivaJSONDemo-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35204FC5143A7ECE002858D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35204FDA143A7ECF002858D6 /* main.m in Sources */,
+				35204FDE143A7ECF002858D6 /* AppDelegate.m in Sources */,
+				35204FE1143A7ECF002858D6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35204FD6143A7ECF002858D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35204FD7143A7ECF002858D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35204FE2143A7ECF002858D6 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35204FE3143A7ECF002858D6 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35204FE5143A7ECF002858D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35204FE6143A7ECF002858D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35204FE8143A7ECF002858D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KivaJSONDemo/KivaJSONDemo-Prefix.pch";
+				INFOPLIST_FILE = "KivaJSONDemo/KivaJSONDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35204FE9143A7ECF002858D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KivaJSONDemo/KivaJSONDemo-Prefix.pch";
+				INFOPLIST_FILE = "KivaJSONDemo/KivaJSONDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35204FC3143A7ECE002858D6 /* Build configuration list for PBXProject "KivaJSONDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35204FE5143A7ECF002858D6 /* Debug */,
+				35204FE6143A7ECF002858D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35204FE7143A7ECF002858D6 /* Build configuration list for PBXNativeTarget "KivaJSONDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35204FE8143A7ECF002858D6 /* Debug */,
+				35204FE9143A7ECF002858D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35204FC0143A7ECE002858D6 /* Project object */;
+}
